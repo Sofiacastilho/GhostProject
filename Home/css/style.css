@@ -1,0 +1,635 @@
+/*Playstation Font*/
+
+@font-face{
+    font-family: ps1;
+    src: url('../fonts/zrnic.ttf');
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: linear-gradient(to bottom,#365853 0.5%, #1E1E1E 70%);
+    
+    
+}
+
+.footer{
+    width: 100%;
+    height: 30px;
+    height: 100px;
+    margin-top: 50px;
+    background-color: #1a1a1a;
+
+}
+
+/*Footer*/
+
+#rights{
+    display: inline-block;
+    margin-left: 11%;
+    padding-top: 20px;
+    word-wrap: break-word;
+    max-width: 850px;
+    font-size: 11px;
+    color: rgb(179, 179, 179);
+}
+
+.navFooter{
+    font-size: 12px;
+    margin-left: 11%;
+    margin-top: 20px;
+}
+
+.navFooter a {
+    margin-right: 20px;
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+    transition: .3s;
+}
+
+.navFooter a:hover{
+    color: rgb(194, 194, 194);
+}
+
+.container{
+    color: rgb(189, 189, 189);
+}
+
+/*Header*/
+
+.header{
+    width:100%;
+    height: 100px;
+    background-color: #1E1E1E;
+    
+}
+
+.nav{
+    margin-left: 24%;
+    padding-top: 35px;
+}
+
+.nav a{
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    margin-left: 55px;
+    border: 2px transparent;
+    transition: .3s;
+}
+
+.nav a:hover{
+    border-bottom: 2px solid ;
+    color: #21A894;
+}
+
+#ghostLogo{
+    width: 150px;
+    height: 84px;
+}
+
+#heartIcon{
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(189, 189, 189);
+    margin-left: 90px;
+    transition: .3s;
+}
+
+#heartIcon:hover{
+    color: #21A894;
+    cursor: pointer;
+}
+
+#heartText{
+    display: inline-block;
+    margin-left: 10px;  
+}
+
+#cartIcon{
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(189, 189, 189);
+    margin-left: 80px;
+    transition: .3s;
+}
+
+#cartIcon:hover{
+    color: #21A894;
+    cursor: pointer;
+}
+
+
+.headContent{
+    display: flex;
+}
+
+.headerProf{
+    margin-left: 30px;
+    padding-top: 23px;
+}
+
+.headerProf a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+#headImg{
+    border: 1px solid rgb(143, 143, 143); 
+    transition: .7s;
+}
+
+#headImg:hover{
+    border: 1px solid #47867c; 
+}
+
+#userHeader{
+    color: rgb(189, 189, 189);
+    margin-left: 4px;
+    position: relative;
+    top: -25px;
+    transition: .4s;
+}
+
+#userHeader:hover{
+    color: #47867c;
+}
+
+#arrDownIcon{
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+#headMoney{
+    position: relative;
+    font-size: 14px;
+    left: -74px;
+    color: rgb(163, 163, 163);
+    transition: .4s;
+}
+
+#headMoney:hover{
+    color: rgb(189, 189, 189);
+}
+
+.loginButtonH a{
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid #1a7e6f;
+    border-radius: 8px;
+    color: rgb(163, 163, 163);
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    margin-left: 75px;
+    margin-top: 24px;
+    transition: .3s;
+}
+
+.loginButtonH a:hover{
+    border: 3px solid #1e9281;
+    color: rgb(189, 189, 189);
+}
+
+
+/*Destaques*/
+.highLogo{
+    margin-top: -220px;
+    margin-left: 20px;
+    
+}
+
+/*Principais publishers*/
+
+.publishers{
+    display: flex;
+    margin-left: 12%;
+    margin-top: 38px;
+    
+}
+
+
+#publiContent{
+    display: block;
+    width: 140px;
+    height: 100px;
+    background-color: #1E1E1E;
+    text-decoration: none;
+    border-radius: 12px;
+    color:rgb(180, 180, 180);
+    margin-right: 25px;
+    transition: .3s;
+
+}
+
+#publiContent:hover{
+    transform: scale(1.05);
+}
+
+#sonyIcon{
+    display: inline-block;
+    margin-left: 43px;
+    margin-top: 15px;
+    font-size: 42px;
+}
+
+#sonyText{
+    display: block;
+    font-family: ps1;
+    margin-top: 5px;
+    margin-left: 32px;
+}
+
+#capcomIcon{
+    width: 85%; 
+    height: auto;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+#fromSoftwareIcon{
+    width: 85%; 
+    height: auto;
+    margin-left: 10px;
+    margin-top: 42px;
+    color: white;
+}
+
+#bandaiIcon{
+    width: 85%; 
+    height: auto;
+    margin-top: 15px;
+    margin-left: 4px;
+}
+
+#konamiIcon{
+    width: 85%; 
+    height: auto;
+    margin-left: 10px;
+    margin-top: 38px;
+}
+
+#devolverIcon{
+    width: 85%; 
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+/*Promoções*/
+
+.promos{
+    margin-left: 16%;
+    margin-top: 70px;
+}
+
+#saleText{
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(189, 189, 189);
+}
+
+.sale1{
+    display: flex;
+    position: relative;
+    width: 534px;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 6px;
+    /*background-color: #242424;*/
+    background: linear-gradient(to bottom, #242424 2%, #00000000 50% );
+    transition: .6s;
+}
+
+.sale1:hover{
+    width: 1200px;
+    
+}
+
+#saleImage{
+
+    border-radius: 6px;
+    margin: 12px;
+    transition: .3s;
+}
+
+.sale1 a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.saleContent{
+    display: none;
+    margin-left: 25px;
+    margin-top: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.saleContent.fade{
+    opacity: 1;
+    pointer-events: all;
+}
+
+#saleTitle{
+    font-size: 35px;
+    color: rgb(189, 189, 189);
+}
+
+.tags{
+    margin-top: 20px;
+}
+
+.tag{
+    display: inline-block;
+    min-width:80px;
+    height: 25px;
+    padding-top: 3px;
+    border-radius: 6px;
+    background-color: #50756f;
+    color: rgb(180, 180, 180);
+    text-align: center;
+}
+
+.platforms i{
+    display: inline-block;
+    font-size: 23px;
+    margin-top: 12px;
+    margin-right: 2px;
+    color: rgb(87, 87, 87);
+}
+
+.expand{
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    left:100%;
+    margin-left: -50px;
+    background: linear-gradient(to right, #00000000 0.1%, #0f0f0f 100%);
+    transition: .3s;
+}
+
+#angleRightIcon{
+    display:block;
+    font-size: 50px;
+    margin-left: 15px;
+    margin-top: 120px;
+    color: rgb(189, 189, 189);
+}
+
+.buySection{
+    margin-top: 30px;
+}
+
+#discount{
+    display: inline-block;
+    font-size: 30px;
+    height: 38px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: rgb(106, 145, 137);
+    color: rgb(139, 199, 187);
+}
+
+.buyButtonPromo{
+    display: inline-block;
+    position: relative;
+    height: 38px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(60, 82, 77);
+}
+
+.buyButtonPromo span{
+    display: block;
+}
+
+.buyButtonContent{
+    padding-top: 2px;
+}
+
+#oldPrice{
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+#discPrice{
+    font-size: 16px;
+}
+
+#discountBanner{
+    display: block;
+    font-size: 22px;
+    margin-left: 12px;
+    padding-top: 5px;
+    position: absolute;
+    top: 195px;
+    border-radius: 2px;
+    width: 55px;
+    height: 32px;
+    text-align: center;
+    background-color: rgb(106, 145, 137);
+    color: rgb(151, 196, 187);
+    opacity: 0.95;
+}
+
+
+.saleLeft{
+    margin-left: 40px;
+    margin-top: 26px;
+}
+
+/*Carousel*/
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.dots{
+    margin-left: 128px;
+    margin-top: 5px;
+}
+
+.recDotsDiv{
+    margin-top: 335px;
+    margin-left: -400px;
+}
+
+.highDotsDiv{
+    margin-left: 48%
+}
+
+.dot, .recDots, .highDots {
+    
+    cursor: pointer;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    margin: 0 0.3px;
+    background-color: #bbb;
+    display: inline-block;
+    
+    transition: border 0.1s ease;
+}
+
+.activeSt,
+.dot:hover, .recDots:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fadeSt {
+    -webkit-animation-name: fadeSt;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fadeSt;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeSt {
+    from {
+        opacity: .2
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeSt {
+    from {
+        opacity: .2
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+/*Recomendações*/
+
+.forYou{
+    margin-left: 16%;
+}
+
+.recGame{
+    display: none;
+    width: 1050px;
+    height: 0px;
+    margin-top: 30px;;
+    background-color: #0f0f0f;
+    background: linear-gradient(to bottom,#192926 0.1%, #1E1E1E 50%);
+}
+
+
+
+.forYouContent{
+    
+    margin-left: 40px;
+    margin-top: 22px;
+}
+
+.recTags{
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+#recImg{
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+}
+
+#recImg:hover{
+    opacity: 0.8;
+}
+
+#recTItle{
+    display: inline-block;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    transition: .3s;
+}
+
+#recTitle:hover{
+    color: rgb(201, 201, 201); 
+}
+
+#forYouText{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#recBuy{
+    display: inline-block;
+    margin-top: 25px;
+    min-width: 120px;
+    height: 38px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 4px;
+    background-color: rgb(60, 82, 77);
+    color: rgb(139, 199, 187);
+    font-size: 18px;
+}
+
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+
+    width: 50px;
+    height: 65px;
+    position: absolute;
+    margin-left: -55px;
+    margin-top: -220px;
+    padding-left: 19px;
+    padding-top: 2px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 8px;
+    user-select: none;
+    
+}
+
+.prev, .prevHigh{
+    background: linear-gradient(to left, #00000000 0.1%, #0f0f0fa0 100%);
+    transition: .3s;
+}
+
+.prev:hover, .prevHigh:hover{
+    background: linear-gradient(to left, #00000000 0.1%, rgb(60, 82, 77) 100%);
+}
+
+.next {
+    margin-left: 1058px;
+    background: linear-gradient(to right, #00000000 0.1%, #0f0f0f 100%);
+    transition: .3s;
+}
+
+.nextHigh{
+    margin-left: 96.7%;
+    background: linear-gradient(to right, #00000000 0.1%, #0f0f0f 100%);
+    transition: .3s;
+}
+
+.next:hover, .nextHigh:hover{
+    background: linear-gradient(to right, #00000000 0.1%, rgb(60, 82, 77) 100%);
+}
