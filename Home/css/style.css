@@ -10,7 +10,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
     font-family: 'Roboto', sans-serif;
 }
 
@@ -632,4 +631,244 @@ body{
 
 .next:hover, .nextHigh:hover{
     background: linear-gradient(to right, #00000000 0.1%, rgb(60, 82, 77) 100%);
+}
+
+
+/*Responsivo*/
+
+@media screen and (max-width: 1400px) {
+
+    /*Header*/
+    .nav{
+        margin-left: 20%;
+    }
+
+    .nav a {
+        font-size: 16px;
+        margin-left: 45px;
+    }
+
+    #heartIcon{
+        font-size: 16px;
+        margin-left: 70px;
+    }
+
+    #cartIcon{
+        font-size: 16px;
+        margin-left: 60px;
+    }
+
+    /*Publishers*/
+
+    .publishers{
+        margin-left: 8%;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 1200px) {
+
+    /*Header*/
+    .nav{
+        margin-left: 10%;
+    }
+
+    /*Destaques*/
+
+    .prevHigh, .nextHigh{
+        width: 40px;
+        font-size: 28px;
+    }
+
+    /*Publishers*/
+    
+    #publiContent{
+        width: 120px;
+        height: 80px;   
+    }
+    
+    #sonyIcon{
+        margin-left: 43px;
+        font-size: 30px;
+    }
+    
+    #sonyText{
+        margin-top: 5px;
+        margin-left: 27px;
+    }
+    
+    #capcomIcon{
+        margin-top: 31px;
+    }
+    
+    #fromSoftwareIcon{
+        margin-top: 35px;
+    }
+    
+    #bandaiIcon{
+        margin-top: 12px;
+    }
+    
+    #konamiIcon{
+        margin-top: 31px;
+    }
+    
+    #devolverIcon{
+        margin-top: 6px;
+    }
+
+
+    /*Recomendações*/
+
+    .recGame{
+        width: 200px;
+    }
+    .forYou{
+        width: 200px;
+    }
+
+    .forYouContent{
+        display: none;
+    }
+
+    .next{
+        margin-left: 570px;
+    }
+
+
+    /*Login*/
+
+    .loginLeft{
+        background-position: -390px;    
+    }
+    
+    .login{
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    /*Header*/
+
+    .header{
+        height: 80px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .loginButtonH{
+        display: none;
+    }
+
+
+    /*Destaques*/
+
+
+    /*Publishers*/
+
+    .publishers{
+        display: none;
+    }
+
+    /*Descontos*/
+
+    .sale1{
+        width: 485px;
+    }
+
+    .sale1:hover{
+        width: 485px;
+    }
+
+    .expand{
+        display: none;
+    }
+
+    #saleImage:hover{
+        opacity: 0.7;
+    }
+
+    /*Login*/
+
+    .loginSpace{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+
+    /*Descontos*/
+
+    .promos{
+        margin-left: 8%;
+    }
+
+    .forYou{
+        margin-left: 8%;
+    }
+
+    .fyImg{
+        width: 431px;
+        height: 228;
+    }
+
+    .prev, .next{
+        margin-left: 6px;
+        margin-top: -260px;
+        font-size: 35px;
+        padding-top: 5px;
+    }
+
+    .next{
+        margin-left: 370px;
+    }
+
+    /*Login*/
+
+    .login{
+        margin-left: 20%;
+    }
+
+
+}
+
+@media screen and (max-width: 500px){
+
+    /*Descontos*/
+
+    .promos{
+        margin-left: 3px;
+    }
+
+    /*Recomendações*/
+    .forYou{
+        margin-left: 25px;
+    }
+
+    #forYouText{
+        margin-left: -21px;
+    }
+
+
+    /*Footer*/
+
+    #rights{
+        font-size: 10px;
+    }
+    
+    .navFooter{
+        font-size: 10px;
+        margin-left: 12%;
+    }
+    
+    .navFooter a{
+        margin-left: -6px;
+    }
+
 }
