@@ -1,0 +1,377 @@
+/*Playstation Font*/
+
+@font-face{
+    font-family: ps1;
+    src: url('../fonts/zrnic.ttf');
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: linear-gradient(to bottom,#365853 0.5%, #1E1E1E 70%);
+    
+    
+}
+
+.footer{
+    width: 100%;
+    height: 30px;
+    height: 100px;
+    margin-top: 50px;
+    background-color: #1a1a1a;
+
+}
+
+/*Footer*/
+
+#rights{
+    display: inline-block;
+    margin-left: 11%;
+    padding-top: 20px;
+    word-wrap: break-word;
+    max-width: 850px;
+    font-size: 11px;
+    color: rgb(179, 179, 179);
+}
+
+.navFooter{
+    font-size: 12px;
+    margin-left: 11%;
+    margin-top: 20px;
+}
+
+.navFooter a {
+    margin-right: 20px;
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+    transition: .3s;
+}
+
+.navFooter a:hover{
+    color: rgb(194, 194, 194);
+}
+
+.container{
+    color: rgb(189, 189, 189);
+}
+
+/*Header*/
+
+.header{
+    width:100%;
+    height: 100px;
+    background-color: #1E1E1E;
+    
+}
+
+.nav{
+    margin-left: 24%;
+    padding-top: 35px;
+}
+
+.nav a{
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    margin-left: 55px;
+    border: 2px transparent;
+    transition: .3s;
+}
+
+.nav a:hover{
+    border-bottom: 2px solid ;
+    color: #21A894;
+}
+
+#ghostLogo{
+    width: 150px;
+    height: 84px;
+}
+
+#heartIcon{
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(189, 189, 189);
+    margin-left: 90px;
+    transition: .3s;
+}
+
+#heartIcon:hover{
+    color: #21A894;
+    cursor: pointer;
+}
+
+#heartText{
+    display: inline-block;
+    margin-left: 10px;  
+}
+
+#cartIcon{
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(189, 189, 189);
+    margin-left: 80px;
+    transition: .3s;
+}
+
+#cartIcon:hover{
+    color: #21A894;
+    cursor: pointer;
+}
+
+
+.headContent{
+    display: flex;
+}
+
+.headerProf{
+    margin-left: 30px;
+    padding-top: 23px;
+}
+
+.headerProf a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+#headImg{
+    border: 1px solid rgb(143, 143, 143); 
+    transition: .7s;
+}
+
+#headImg:hover{
+    border: 1px solid #47867c; 
+}
+
+#userHeader{
+    color: rgb(189, 189, 189);
+    margin-left: 4px;
+    position: relative;
+    top: -25px;
+    transition: .4s;
+}
+
+#userHeader:hover{
+    color: #47867c;
+}
+
+#arrDownIcon{
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+#headMoney{
+    position: relative;
+    font-size: 14px;
+    left: -74px;
+    color: rgb(163, 163, 163);
+    transition: .4s;
+}
+
+#headMoney:hover{
+    color: rgb(189, 189, 189);
+}
+
+.loginButtonH a{
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid #1a7e6f;
+    border-radius: 8px;
+    color: rgb(163, 163, 163);
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    margin-left: 75px;
+    margin-top: 24px;
+    transition: .3s;
+}
+
+.loginButtonH a:hover{
+    border: 3px solid #1e9281;
+    color: rgb(189, 189, 189);
+}
+
+.bodyV2{
+    background: radial-gradient(to bottom,#365853 0.5%, #1E1E1E 70%);
+}
+
+
+
+/*Cadastro*/
+
+::placeholder{
+    color:rgb(187, 187, 187);
+    padding: 3px;
+}
+
+.signBack{
+    min-height: 645px;
+    background: radial-gradient(30% 40% at 40% 30%, #313131 0%, rgba(99, 153, 126, 0) 100%) -50vw no-repeat, url(/public/images/library.jpeg) 0 no-repeat, #202221;
+    background-size: 950px;
+    background-position: -430px;
+}
+
+.forgotBack{
+    min-height: 645px;
+    background: radial-gradient(30% 40% at 40% 30%, #313131 0%, rgba(99, 153, 126, 0) 100%) -50vw no-repeat, url(/public/images/library.jpeg) 0 no-repeat, #202221;
+    background-size: 950px;
+    background-position: -430px;
+}
+
+.signIn{
+    width: 350px;
+    height: 500px;
+    margin-left: 30%;
+    padding-top: 100px;
+}
+
+.signIn input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border-radius: 6px;
+    background: rgb(53, 56, 54);
+    margin-top: 15px;
+    color:rgb(187, 187, 187);
+    border: 0px;
+    text-indent: 5px;
+    transition: .3s;
+}
+
+.signIn button{
+    display: block;
+    width: 300px;
+    height: 48px;
+    background-color: #47867c;
+    border-radius: 6px;
+    border: 0;
+    margin-top: 30px;
+    color:rgb(187, 187, 187);
+    transition: .3s;;
+}
+
+.signIn button:hover{
+    background-color: #56968b;
+    color:rgb(201, 201, 201);
+    cursor: pointer;
+}
+
+#signText{
+    display: inline-block;
+    font-size: 36px;
+    color:rgb(187, 187, 187);
+    margin-bottom: 15px;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+/*Responsivo*/
+
+@media screen and (max-width: 1400px) {
+
+    /*Header*/
+    .nav{
+        margin-left: 20%;
+    }
+
+    .nav a {
+        font-size: 16px;
+        margin-left: 45px;
+    }
+
+    #heartIcon{
+        font-size: 16px;
+        margin-left: 70px;
+    }
+
+    #cartIcon{
+        font-size: 16px;
+        margin-left: 60px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    /*Header*/
+    .nav{
+        margin-left: 10%;
+    }
+
+     /*Login*/
+
+     .loginLeft{
+        background-position: -390px;    
+    }
+    
+    .login{
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    /*Header*/
+
+    .header{
+        height: 80px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .loginButtonH{
+        display: none;
+    }
+    
+    /*Login*/
+
+    .loginSpace{
+       display: block;
+    }
+}
+
+@media screen and (max-width: 600px){
+    /*Login*/
+
+    .login{
+        margin-left: 20%;
+    }
+
+
+}
+
+@media screen and (max-width: 500px){
+ /*Footer*/
+
+    #rights{
+        font-size: 10px;
+    }
+    
+    .navFooter{
+        font-size: 10px;
+        margin-left: 12%;
+    }
+    
+    .navFooter a{
+        margin-left: -6px;
+    }
+
+}

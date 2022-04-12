@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Cadastre-se</title>
+
+        <script src="https://kit.fontawesome.com/50d53b2eac.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    </head>
+
+    <body class="bodyV2">
+        <div class="container">
+            <div class="header">
+                <div class="headContent">
+                    <div class="nav">
+                        <a href="../index.html">Home</a>
+                        <a href="">Biblioteca</a>
+                        <a href="">Meu Perfil</a>
+                        <a href="">Sobre</a>
+
+                        <i id="heartIcon" class="fa-regular fa-heart"><span id="heartText">Favoritos</span></i>
+
+                        <i id="cartIcon" class="fa-solid fa-cart-shopping"></i>
+                    </div>
+
+                    <!--<div class="headerProf">
+                        <a href="" id="headImg"><image src="public/images/iconBig.png" width="40" height="40"></image></a>
+                        <a id="userHeader" href="">Usuario <i id="arrDownIcon" class="fa-solid fa-angle-down"></i></a>
+
+                        <a id="headMoney" href="">R$ 00,00</a>
+                    </div>-->
+
+                    <div class="loginButtonH">
+                        <a href="../Login/Login.html" >Fazer Login</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <form onsubmit="valid()">
+                <div class="signBack">
+                    <div class="signIn">
+
+                        <span id="signText">Crie sua conta</span>
+
+                        <input id="username" type="text" name="username" placeholder="Usuário" autocomplete="off" /> 
+                        <input id="email" type="email" name="email" placeholder="E-mail" autocomplete="off" /> 
+                        <input id="password" type="password" name="password" placeholder="Senha" autocomplete="off" /> 
+                        <input id="confirm" type="password" name="confirm" placeholder="Confirmar senha" autocomplete="off" />
+                        
+
+                        <button>SALVAR</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script>
+
+            var exp = /^(?=.{6,}$)(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*\W).*$/;
+
+            function valid(){
+                var inp = document.getElementById("password").value;
+                //var check = alert(exp.test(inp));
+                var check = exp.test(inp);
+
+                if(check == true){
+                    alert("A senha cadastrada foi forte!")
+                }
+                else{
+                    alert("Senha muito fraca. Tente adicionar letras maiúsculas, caracteres especiais e números.")
+                }
+
+                /*if(check == true){
+                    alert("deu");
+                }
+                else{
+                    alert("nao");
+                }*/
+            }
+
+
+        </script>
+    </body>
+</html>
