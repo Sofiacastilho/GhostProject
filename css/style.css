@@ -1,0 +1,1058 @@
+/*Playstation Font*/
+
+@font-face{
+    font-family: ps1;
+    src: url('../../assets/fonts/zrnic.ttf');
+}
+
+/*Retro Font*/
+
+@font-face{
+    font-family: retro;
+    src: url('../../assets/fonts/Retro.ttf');
+}
+
+@font-face{
+    font-family: big;
+    src: url('../../assets/fonts/BigPixel.ttf');
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: big;
+}
+
+body{
+    
+    background-color: #160625;
+    
+    
+}
+
+
+
+/*Footer*/
+
+.footer{
+    width: 100%;
+    height: 30px;
+    height: 100px;
+    margin-top: 50px;
+    background-color: #10041b;
+
+}
+
+
+
+#rights{
+    display: inline-block;
+    margin-left: 11%;
+    padding-top: 20px;
+    word-wrap: break-word;
+    max-width: 850px;
+    font-size: 11px;
+    color: rgb(179, 179, 179);
+}
+
+.navFooter{
+    font-size: 12px;
+    margin-left: 11%;
+    margin-top: 20px;
+}
+
+.navFooter a {
+    margin-right: 20px;
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+    transition: .3s;
+}
+
+.navFooter a:hover{
+    color: rgb(194, 194, 194);
+}
+
+.container{
+    color: rgb(189, 189, 189);
+}
+
+/*Header*/
+
+.header{
+    width:100%;
+    height: 100px;
+    background-color: #160625;
+    
+}
+
+.nav{
+    margin-left: 130px;
+    padding-top: 35px;
+}
+
+.nav a{
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+    margin-left: 30px;
+    border: 2px transparent;
+    transition: .3s;
+}
+
+.nav a:hover{
+    border-bottom: 2px solid ;
+    color: #7e2ab6;
+    cursor: pointer;
+    text-shadow: /*0 0 0.2em hsl(0 0% 100% / 0.5),*/ 0 0 1em #7e2ab6;
+
+    /*box-shadow: 0 10px 1em -0.3em #7e2ab6;*/
+}
+
+#ghostLogo{
+    width: 125px;
+    height: 76px;
+    /*fill: linear-gradient(101.9deg, #6477DD 7.67%, #C753C1 52.66%, #DC1DC3 93.7%);*/
+    margin-top: 6px;
+
+}
+
+#heartIcon{
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(218, 218, 218);
+    margin-left: 60px;
+    transition: .3s;
+}
+
+#heartIcon:hover{
+    color: #7e2ab6;
+    text-shadow:  0 0 1em #7e2ab6;
+    cursor: pointer;
+}
+
+#heartText{
+    display: inline-block;
+    margin-left: 10px;  
+}
+
+#cartIcon{
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(218, 218, 218);
+    margin-left: 40px;
+    transition: .3s;
+}
+
+#cartIcon:hover{
+    color: #7e2ab6;
+    text-shadow:  0 0 1em #7e2ab6;
+    cursor: pointer;
+}
+
+
+.headContent{
+    display: flex;
+    margin-left: 8%;
+}
+
+.headerProf{
+    margin-left: 30px;
+    padding-top: 23px;
+}
+
+.headerProf a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+#headImg{
+    border: 1px solid rgb(143, 143, 143); 
+    transition: .7s;
+}
+
+#headImg:hover{
+    border: 1px solid #915bc7; 
+}
+
+#userHeader{
+    color: rgb(189, 189, 189);
+    margin-left: 4px;
+    position: relative;
+    top: -25px;
+    transition: .4s;
+}
+
+#userHeader:hover{
+    color: #7e2ab6;
+    cursor: pointer;
+    text-shadow: 0 0 1em #7e2ab6;
+}
+
+#arrDownIcon{
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+#headMoney{
+    display: block;
+    position: relative;
+    font-size: 11px;
+    left: 48px;
+    top: -15px;
+    color: rgb(163, 163, 163);
+    transition: .4s;
+}
+
+#headMoney:hover{
+    color: rgb(189, 189, 189);
+}
+
+#logout{
+    display: block;
+    position: relative;
+    color: rgb(163, 163, 163);
+    font-size: 10px;
+    left: 115px;
+    top: -29px;
+    transition: .4s;
+}
+
+#logout:hover{
+    cursor: pointer;
+    color: rgb(189, 189, 189);
+}
+
+.loginButtonH a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    border: 0px;
+    background: linear-gradient(101.9deg, #7273D9 7.67%, #B35BC7 52.66%, #D927C3 93.7%);
+    border-radius: 8px;
+    color: rgb(218, 218, 218);
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    padding-top: 11px;
+    margin-left: 170px;
+    margin-top: 27px;
+    transition: .3s;
+}
+
+.loginButtonH a:hover{
+    text-shadow:  0 0 1em #7e2ab6;
+    box-shadow:  0 0 0.5em #7e2ab6;
+    color: rgb(235, 235, 235);
+}
+
+
+/*Destaques*/
+
+.highlight{
+    -webkit-mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 75%,  rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.highContent{
+    display: block;
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 60px;
+    min-height: 250px;
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+}p
+
+.highLogo{
+    margin-top: -220px;
+    margin-left: 20px;
+    
+}
+
+.highDescT{
+    display: block;
+    font-family: 'DM Sans', sans-serif;
+    
+
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+
+}
+
+.highDesc{
+    display: block;
+    position: relative;
+    
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #DEDEDE;
+    max-width: 400px;
+
+}
+
+.highButtons{
+    margin-top: 30px;
+}
+
+.highBuy{
+    display: block;
+    position: absolute;
+    
+    text-decoration: none;
+    font-size: 13px;
+    border: 0px;
+    background: linear-gradient(101.9deg, #7273D9 7.67%, #B35BC7 52.66%, #D927C3 93.7%);
+    border-radius: 4px;
+    color: rgb(218, 218, 218);
+    width: 100px;
+    height: 41px;
+    text-align: center;
+    padding-top: 12px;
+
+    transition: .3s;
+}
+
+.highBuy:hover{
+    text-shadow:  0 0 1em #7e2ab6;
+    box-shadow:  0 0 0.5em #7e2ab6;
+    color: rgb(235, 235, 235);
+}
+
+.highRead{
+    position: absolute;
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+    font-size: 13px;
+    left: 50px;
+    width: 110px;
+    height: 41px;
+    margin-left: 70px;
+    padding-left: 21px;
+    padding-top: 11px;
+    transition: .3s;
+}
+
+.highRead:hover{
+    text-shadow:  0 0 1em #7e2ab6;
+    box-shadow:  0 0 0.5em #7e2ab6;
+    color: rgb(235, 235, 235);
+}
+
+.highRead::before{
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 0;
+    width: 110px;
+    height: 41px;
+    border-radius: 4px; /*1*/
+    border: 1px solid transparent; /*2*/
+    background: linear-gradient(95.92deg, #6578DD 2.11%, #B35BC7 47.11%, #DC1DC4 98.85%) border-box; /*3*/
+    -webkit-mask: /*4*/
+    linear-gradient(#fff 0 0) padding-box, 
+    linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor; /*5'*/
+    mask-composite: exclude; /*5*/
+}
+
+/*Principais publishers*/
+
+.publishers{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 38px;
+    
+}
+
+
+#publiContent{
+    display: block;
+    width: 155px;
+    height: 100px;
+    background: linear-gradient(to bottom,  #1B113A 3%, #150625 90%);  
+    text-decoration: none;
+    border-radius: 20px;
+    color:rgb(180, 180, 180);
+    margin-right: 25px;
+    border: 1px solid #ffffff1b;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: .3s;
+
+}
+
+#publiContent:hover{
+    transform: scale(1.05);
+    box-shadow:  0 3px 0.2em #771976;
+}
+
+#sonyIcon{
+    display: inline-block;
+    margin-left: 52px;
+    margin-top: 15px;
+    font-size: 42px;
+}
+
+#sonyText{
+    display: block;
+    font-family: ps1;
+    margin-top: 5px;
+    margin-left: 41px;
+}
+
+#capcomIcon{
+    width: 85%; 
+    height: auto;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+#fromSoftwareIcon{
+    width: 85%; 
+    height: auto;
+    margin-left: 10px;
+    margin-top: 42px;
+    color: white;
+}
+
+#bandaiIcon{
+    width: 85%; 
+    height: auto;
+    margin-top: 15px;
+    margin-left: 4px;
+}
+
+#konamiIcon{
+    width: 85%; 
+    height: auto;
+    margin-left: 10px;
+    margin-top: 38px;
+}
+
+#devolverIcon{
+    width: 85%; 
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+/*Promoções*/
+
+.promos{
+    margin-left: 16%;
+    margin-top: 70px;
+}
+
+.promoDivs{
+    display: flex;
+}
+
+#saleText{
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(189, 189, 189);
+}
+
+.sale1{
+    display: flex;
+    position: relative;
+    width: 330px;
+    height: 185px;
+    margin-top: 30px;
+    margin-right: 30px;
+    border-radius: 6px;
+    /*background-color: #242424;*/
+    background: linear-gradient(to bottom, #242424 2%, #00000000 50% );
+    transition: .6s;
+}
+
+
+#saleImage{
+
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.sale1 a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.saleContent{
+    display: none;
+    margin-left: 25px;
+    margin-top: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.saleContent.fade{
+    opacity: 1;
+    pointer-events: all;
+}
+
+#saleTitle{
+    font-size: 35px;
+    color: rgb(189, 189, 189);
+}
+
+.tags{
+    margin-top: 20px;
+}
+
+.tag{
+    display: inline-block;
+    min-width:80px;
+    height: 25px;
+    padding-top: 3px;
+    border-radius: 6px;
+    
+    background-color:#7754ac;
+    color: rgb(180, 180, 180);
+    text-align: center;
+}
+
+.platforms i{
+    display: inline-block;
+    font-size: 23px;
+    margin-top: 12px;
+    margin-right: 2px;
+    color: rgb(87, 87, 87);
+}
+
+.expand{
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    left:100%;
+    margin-left: -50px;
+    background: linear-gradient(to right, #00000000 30%, #160625 100%);
+    transition: .3s;
+}
+
+#angIcon{
+    background: linear-gradient(180deg, #6578DD 0%, #D925C3 100%);
+    -webkit-background-clip: text;
+
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+
+#angleRightIcon{
+    position: absolute ;
+    font-size: 19px;
+    margin-top: 80px;
+    margin-left: 18px;
+    padding-left: 9px;
+    padding-top: 4px;
+}
+
+#angleRightIcon::before{
+    content: "";
+    position: absolute;
+    display:block;
+
+    inset: 0;
+    height: 24px;
+    width: 24px;
+   
+    
+    border-radius: 50%;
+
+    border: 2px solid transparent; /*2*/
+    background: linear-gradient(180deg, #6578DD 0%, #D925C3 100%) border-box; /*3*/
+    -webkit-mask: /*4*/
+    linear-gradient(#fff 0 0) padding-box, 
+    linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor; /*5'*/
+    mask-composite: exclude; /*5*/
+    color: rgb(189, 189, 189);
+}
+
+.buySection{
+    margin-top: 30px;
+}
+
+#discount{
+    display: inline-block;
+    font-size: 30px;
+    height: 38px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: rgb(106, 145, 137);
+    color: rgb(139, 199, 187);
+}
+
+.buyButtonPromo{
+    display: inline-block;
+    position: relative;
+    height: 38px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(60, 82, 77);
+}
+
+.buyButtonPromo span{
+    display: block;
+}
+
+.buyButtonContent{
+    padding-top: 2px;
+}
+
+#oldPrice{
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+#discPrice{
+    font-size: 16px;
+}
+
+#discountBanner{
+    display: block;
+    font-size: 22px;
+    padding-top: 3px;
+    position: absolute;
+    top: 153px;
+    border-radius: 9px;
+    width: 60px;
+    height: 32px;
+    text-align: center;
+    background-color: #6e3a9f;
+    color: #ba86ea;
+    opacity: 0.95;
+}
+
+
+.saleLeft{
+    margin-left: 40px;
+    margin-top: 26px;
+}
+
+/*Carousel*/
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.dots{
+    margin-left: 128px;
+    margin-top: 5px;
+}
+
+.recDotsDiv{
+    margin-top: 335px;
+    margin-left: -400px;
+}
+
+.highDotsDiv{
+    margin-left: 48%
+}
+
+.dot, .recDots, .highDots {
+    
+    cursor: pointer;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    margin: 0 0.3px;
+    background-color: rgb(206, 206, 206);
+    display: inline-block;
+    
+    transition: border 0.1s ease;
+}
+
+.activeSt,
+.dot:hover, .recDots:hover {
+    background-color: rgba(216, 40, 195, 1);
+}
+
+/* Fading animation */
+.fadeSt {
+    -webkit-animation-name: fadeSt;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fadeSt;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeSt {
+    from {
+        opacity: .2
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeSt {
+    from {
+        opacity: .2
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+/*Recomendações*/
+
+.forYou{
+    margin-left: 16%;
+    margin-top: 40px;
+}
+
+.recGame{
+    display: none;
+    width: 1050px;
+    height: 0px;
+    margin-top: 30px;;
+    background-color: #0f0f0f;
+    background: linear-gradient(to bottom,#192926 0.1%, #1E1E1E 50%);
+}
+
+
+
+.forYouContent{
+    
+    margin-left: 40px;
+    margin-top: 22px;
+}
+
+.recTags{
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+#recImg{
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+}
+
+#recImg:hover{
+    opacity: 0.8;
+}
+
+#recTItle{
+    display: inline-block;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    transition: .3s;
+}
+
+#recTitle:hover{
+    color: rgb(201, 201, 201); 
+}
+
+#forYouText{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#recBuy{
+    display: inline-block;
+    margin-top: 25px;
+    min-width: 120px;
+    height: 38px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 4px;
+    background: linear-gradient(101.9deg, #6668c2 15.67%, #994eaa 52.66%);
+    color: #b2b2b2;
+    font-size: 18px;
+}
+
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+
+    width: 50px;
+    height: 65px;
+    position: absolute;
+    margin-left: -55px;
+    margin-top: -220px;
+    padding-left: 19px;
+    padding-top: 2px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 8px;
+    user-select: none;
+    
+}
+
+.prev, .prevHigh{
+    background: linear-gradient(to left, #00000000 0.1%, #0f0f0fa0 100%);
+    transition: .3s;
+}
+
+.prev:hover, .prevHigh:hover{
+    background: linear-gradient(to left, #00000000 0.1%, rgb(60, 82, 77) 100%);
+}
+
+.next {
+    margin-left: 1058px;
+    background: linear-gradient(to right, #00000000 0.1%, #0f0f0f 100%);
+    transition: .3s;
+}
+
+.nextHigh{
+    margin-left: 96.7%;
+    background: linear-gradient(to right, #00000000 0.1%, #0f0f0f 100%);
+    transition: .3s;
+}
+
+.next:hover, .nextHigh:hover{
+    background: linear-gradient(to right, #00000000 0.1%, rgb(60, 82, 77) 100%);
+}
+
+
+/*Responsivo*/
+
+@media screen and (max-width: 1400px) {
+
+    /*Header*/
+    .nav{
+        margin-left: 20%;
+    }
+
+    .nav a {
+        font-size: 16px;
+        margin-left: 45px;
+    }
+
+    #heartIcon{
+        font-size: 16px;
+        margin-left: 70px;
+    }
+
+    #cartIcon{
+        font-size: 16px;
+        margin-left: 60px;
+    }
+
+    /*Publishers*/
+
+    .publishers{
+        margin-left: 8%;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 1200px) {
+
+    /*Header*/
+    .nav{
+        margin-left: 10%;
+    }
+
+    /*Destaques*/
+
+    .prevHigh, .nextHigh{
+        width: 40px;
+        font-size: 28px;
+    }
+
+    /*Publishers*/
+    
+    #publiContent{
+        width: 120px;
+        height: 80px;   
+    }
+    
+    #sonyIcon{
+        margin-left: 43px;
+        font-size: 30px;
+    }
+    
+    #sonyText{
+        margin-top: 5px;
+        margin-left: 27px;
+    }
+    
+    #capcomIcon{
+        margin-top: 31px;
+    }
+    
+    #fromSoftwareIcon{
+        margin-top: 35px;
+    }
+    
+    #bandaiIcon{
+        margin-top: 12px;
+    }
+    
+    #konamiIcon{
+        margin-top: 31px;
+    }
+    
+    #devolverIcon{
+        margin-top: 6px;
+    }
+
+
+    /*Recomendações*/
+
+    .recGame{
+        width: 200px;
+    }
+    .forYou{
+        width: 200px;
+    }
+
+    .forYouContent{
+        display: none;
+    }
+
+    .next{
+        margin-left: 570px;
+    }
+
+
+    /*Login*/
+
+    .loginLeft{
+        background-position: -390px;    
+    }
+    
+    .login{
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    /*Header*/
+
+    .header{
+        height: 80px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .loginButtonH{
+        display: none;
+    }
+
+
+    /*Destaques*/
+
+
+    /*Publishers*/
+
+    .publishers{
+        display: none;
+    }
+
+    /*Descontos*/
+
+
+    .expand{
+        display: none;
+    }
+
+    #saleImage:hover{
+        opacity: 0.7;
+    }
+
+    /*Login*/
+
+    .loginSpace{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+
+    /*Descontos*/
+
+    .promos{
+        margin-left: 8%;
+    }
+
+    .forYou{
+        margin-left: 8%;
+    }
+
+    .fyImg{
+        width: 431px;
+        height: 228;
+    }
+
+    .prev, .next{
+        margin-left: 6px;
+        margin-top: -260px;
+        font-size: 35px;
+        padding-top: 5px;
+    }
+
+    .next{
+        margin-left: 370px;
+    }
+
+    /*Login*/
+
+    .login{
+        margin-left: 20%;
+    }
+
+
+}
+
+@media screen and (max-width: 500px){
+
+    /*Descontos*/
+
+    .promos{
+        margin-left: 3px;
+    }
+
+    /*Recomendações*/
+    .forYou{
+        margin-left: 25px;
+    }
+
+    #forYouText{
+        margin-left: -21px;
+    }
+
+
+    /*Footer*/
+
+    #rights{
+        font-size: 10px;
+    }
+    
+    .navFooter{
+        font-size: 10px;
+        margin-left: 12%;
+    }
+    
+    .navFooter a{
+        margin-left: -6px;
+    }
+
+}
